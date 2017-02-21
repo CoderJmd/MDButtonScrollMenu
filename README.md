@@ -17,4 +17,9 @@
     view.ButtonTitleSelectedColor = [UIColor redColor];
     //设置按钮标题的正常颜色
     view.ButtonTitleNormalColor =[UIColor blackColor];
-    ```
+ ```
+ ####在scorllView滚动的时候调用menView的方法即可实现按钮随ScrollView的滚动而改变
+ ```objc
+     //在ScrollView滚动完成的代理方法内实现这个方法
+    [self.mdview ScrollviewWidhtBottomLineViewScroll:scrollView];
+ 
