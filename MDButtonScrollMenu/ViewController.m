@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "MDMenuView.h"
 #import "OredrViewController.h"
+#import "MenuViewController.h"
 
 @interface ViewController ()<UIScrollViewDelegate>
 @property (nonatomic, weak)MDMenuView *mdview;
@@ -32,9 +33,13 @@
     OredrViewController *oredr = [[OredrViewController alloc]init];
     [scrollview addSubview:oredr.view];
     oredr.view.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+    MenuViewController *men = [[MenuViewController alloc]init];
+    [scrollview addSubview:men.view];
+    men.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+    
     MDMenuView *view = [[MDMenuView alloc]init];
     view.frame = CGRectMake(0, 40, [UIScreen mainScreen].bounds.size.width, 40);
-    view.TitleArray = @[@"菜单",@"选项",@"自定义",];
+    view.TitleArray = @[@"订单",@"菜单",@"全部",];
     [self.view addSubview:view];
     view.scrollView = scrollview;
     self.mdview = view;
