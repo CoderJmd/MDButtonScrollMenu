@@ -10,6 +10,7 @@
 		2704CE2B1E5BD25300A7BF4C /* OredrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2704CE2A1E5BD25300A7BF4C /* OredrViewController.m */; };
 		2704CE2D1E5BD84300A7BF4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2704CE2C1E5BD84300A7BF4C /* ViewController.m */; };
 		2704CE311E5BE04C00A7BF4C /* MDMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2704CE301E5BE04C00A7BF4C /* MDMenuView.m */; };
+		2704CE341E5C067D00A7BF4C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2704CE331E5C067D00A7BF4C /* MenuViewController.m */; };
 		2726C68E1E5BC47A00CDA16D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2726C68D1E5BC47A00CDA16D /* main.m */; };
 		2726C6911E5BC47A00CDA16D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2726C6901E5BC47A00CDA16D /* AppDelegate.m */; };
 		2726C6971E5BC47A00CDA16D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2726C6951E5BC47A00CDA16D /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 		2704CE2C1E5BD84300A7BF4C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2704CE2F1E5BE04C00A7BF4C /* MDMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMenuView.h; sourceTree = "<group>"; };
 		2704CE301E5BE04C00A7BF4C /* MDMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMenuView.m; sourceTree = "<group>"; };
+		2704CE321E5C067D00A7BF4C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		2704CE331E5C067D00A7BF4C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		2726C6891E5BC47A00CDA16D /* MDButtonScrollMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDButtonScrollMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2726C68D1E5BC47A00CDA16D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2726C68F1E5BC47A00CDA16D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				2704CE2C1E5BD84300A7BF4C /* ViewController.m */,
 				2704CE291E5BD25300A7BF4C /* OredrViewController.h */,
 				2704CE2A1E5BD25300A7BF4C /* OredrViewController.m */,
+				2704CE321E5C067D00A7BF4C /* MenuViewController.h */,
+				2704CE331E5C067D00A7BF4C /* MenuViewController.m */,
 				2704CE2E1E5BE04C00A7BF4C /* MDMenuView */,
 				2726C6951E5BC47A00CDA16D /* Main.storyboard */,
 				2726C6981E5BC47A00CDA16D /* Assets.xcassets */,
@@ -169,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2704CE2B1E5BD25300A7BF4C /* OredrViewController.m in Sources */,
+				2704CE341E5C067D00A7BF4C /* MenuViewController.m in Sources */,
 				2726C6911E5BC47A00CDA16D /* AppDelegate.m in Sources */,
 				2726C68E1E5BC47A00CDA16D /* main.m in Sources */,
 				2704CE311E5BE04C00A7BF4C /* MDMenuView.m in Sources */,

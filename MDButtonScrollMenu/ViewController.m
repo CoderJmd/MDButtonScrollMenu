@@ -24,7 +24,7 @@
     
     UIScrollView *scrollview = [[UIScrollView alloc]init];
     scrollview.frame = self.view.bounds;
-    scrollview.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width * 4, 0);
+    scrollview.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width * 3, 0);
     scrollview.delegate = self;
     scrollview.pagingEnabled = YES;
     [self.view addSubview:scrollview];
